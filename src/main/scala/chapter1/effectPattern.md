@@ -73,4 +73,13 @@ No
 
 => Therefore, Option is an effect
 
+## Future
 
+Future does not separate effect description from execution: it is unsafe.
+
+## Capturing arbitrary side effects as an effect
+
+What about an effect that does involve side effects, but safely?
+
+This is the purpose of the IO effect type in cats.effect. It is a data type that allows us to capture any side effect,
+but in a safe way, following our Effect Pattern.
