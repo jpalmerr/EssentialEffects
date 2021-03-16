@@ -19,7 +19,7 @@ object Par {
     - to compose independent values
     
 ```scala
-implict def ap(implicit cs: ContextShift[IO]: Applocative[IO.Par]) = 
+implicit def ap(implicit cs: ContextShift[IO]: Applocative[IO.Par]) = 
   new Applicative[IO.Par] {
     def pure[A](a: A): IO.Par[A] = IO.Par(a)
     def map[A, B](pa: IO.Par[A])(f: A => B): IO.Par[B] = ???
