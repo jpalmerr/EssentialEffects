@@ -10,4 +10,4 @@ How to
 
 - fork and join a concurrent effect
 - cancel a concurrently running effect
-- race mutliple effects 
+- race multiple effects 
