@@ -24,7 +24,7 @@ object Start extends IOApp {
 def start(implicit cs: ContextShift[IO]): IO[Fiber[IO, A]]
 
 context shift is our thread pool
-fiber is a data type  which lets us act on the start-ed effect
-wrapped in an IO our original IO is not running until we explicitly run it, so we need to delay access
+fiber is a data type  which lets us act on the started effect
+wrapped in an IO, our original IO is not running until we explicitly run it, so we need to delay access
  */
 

@@ -13,7 +13,7 @@ object ResourceApp extends IOApp {
   }
 
   // compose managed resoucres into a single Resource value
-  val resources: Resource[IO, (DependencyA, DependencyB, DependencyC] =
+  val resources: Resource[IO, (DependencyA, DependencyB, DependencyC)] =
     (resourceA, resourceB, resourceC).tupled
 
   val resourceA: Resource[IO, DependencyA] = ???
