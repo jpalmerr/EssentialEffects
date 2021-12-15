@@ -2,7 +2,7 @@ package lib
 
 import cats.effect._
 
-/** `import com.innerproduct.ee.debug._` to access
+/** `essentialEffectsExercises.lib.Debug.*` to access
  * the `debug` extension methods. */
 object debug {
   /** Extension methods for an effect of type `F[A]`. */
