@@ -74,7 +74,7 @@ object ParMapNErrorsDelay extends IOApp {
  *
  * For e2, even though ko1 is the first argument to parMapN we see the same output as e1
  *
- * For e2 we see the output of ko2, since ko1 was delayed and thus executed after ko2
+ * For e3 we see the output of ko2, since ko1 was delayed and thus executed after ko2
  *
  * The first failure to happen is used as the failure of the composed effect
  */

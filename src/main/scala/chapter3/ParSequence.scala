@@ -7,7 +7,7 @@ F[G[A]] => G[F[A]]
 
 import cats.effect._
 import cats.implicits._
-import lib.debug.DebugHelper
+import lib.debug._
 
 object ParSequence extends IOApp {
   def run(args: List[String]): IO[ExitCode] = {
